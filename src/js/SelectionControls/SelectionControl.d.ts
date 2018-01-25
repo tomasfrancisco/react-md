@@ -13,6 +13,7 @@ export interface BaseSelectionControlProps extends Props {
   checked?: boolean;
   defaultChecked?: boolean;
   inline?: boolean;
+  inkDisabled?: boolean;
   'aria-label'?: string;
   'aria-labelledby'?: IdPropType;
 }
